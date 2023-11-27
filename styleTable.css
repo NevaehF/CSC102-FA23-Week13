@@ -1,0 +1,60 @@
+nav{
+    height:6000px;
+    width: 200px;
+    float: left;
+    padding: 15px; 
+    line-height: 30px;
+}
+
+
+
+footer{ 
+    text-align: center;
+    margin: 200px; 
+}
+ /* My font style and  */
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(181, 212, 207);
+    margin: 0;
+    padding: 0;
+}
+  /* I wated to try a different  */
+h1{
+    background-color: rgb(77, 105, 91);
+    color: rgb(196, 198, 201);
+    padding: 20px; 
+}
+
+table{
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 20px auto;
+    
+   
+}
+/* just the colors of the tines of the tale and padding*/
+th, td{
+    border: 1px solid rgb(128, 55, 55); 
+    padding: 10px;
+    
+}
+
+th{
+    background-color: rgb(103, 139, 131);
+    color: whitesmoke; 
+}
+ /* This makes the even rows of my table its own color */
+tr:nth-child(even){
+    background-color: white;
+
+}
+    /* This makes the odd rows of my table its own color */
+tr:nth-child(odd){
+    background-color: rgb(124, 166, 218);
+}
+    /* Ever since I was introduced to this hover function I've been hooked and it makes it easier to read/keep track of (in a way) */
+tr:hover{
+    background-color: rgb(103, 117, 139);
+    color: whitesmoke;
+}

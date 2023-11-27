@@ -1,0 +1,21 @@
+nav{
+    height:6000px;
+    width: 200px;
+    float: left;
+    padding: 5px; 
+    line-height: 30px;
+}
+body{
+    background-color: rgb(181, 212, 207);
+    color: rgb(114, 26, 114);
+}
+
+p{
+    color: rgb(71, 89, 187);
+    font-size: large;
+}
+
+footer{ 
+    text-align: center;
+    margin: 200px; 
+}
